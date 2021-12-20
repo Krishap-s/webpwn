@@ -16,7 +16,7 @@ setuptools.setup(
     },
     classifiers=[
         "Programming Language :: Python :: 3",
-        'Environment :: Console',
+        "Environment :: Console",
         "License :: OSI Approved :: MIT License",
         "Operating System :: POSIX :: Linux",
     ],
