@@ -20,4 +20,13 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint **\*.py -s y --score=7
+        set -x
+        pip install pylint
+        pip install --upgrade -r requirements.txt
+        pylint --exit-zero --errors-only  pwnlib > current.txt
+        git fetch origin
+        git checkout origin/"$GITHUB_BASE_REF"
+        pylint --exit-zero --errors-only  pwnlib > base.txt
+        if diff base.txt current.txt | grep '>'; then
+          false
+        fi
