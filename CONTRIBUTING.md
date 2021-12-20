@@ -10,4 +10,4 @@ Github has a great guide for contributing to open source projects:
 - [Huzzah!](https://guides.github.com/activities/forking/#huzzah)
 
 ## webpwn specific:
-- webpwn commits follows [Conventional Commits]("https://www.conventionalcommits.org/en/v1.0.0/") standard
+- webpwn commits follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard
