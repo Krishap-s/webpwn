@@ -11,3 +11,4 @@ Github has a great guide for contributing to open source projects:
 
 ## webpwn specific:
 - webpwn commits follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard
+- webpwn uses [Super Linter](https://github.com/github/super-linter) for code linting
